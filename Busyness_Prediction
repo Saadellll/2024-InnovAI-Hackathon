@@ -1,0 +1,15 @@
+# Busyness Prediction using AI
+
+## Overview
+This project aims to predict busyness levels in service agencies and branches, such as CIH Bank's branch in Skhirat. The solution uses AI to forecast customer density, helping customers plan their visits and improving operational efficiency.
+
+## Features
+- **Prediction**: Forecast busyness levels using historical data, weather, holidays, etc.
+- **Optimization**: Provides actionable recommendations for customers and service providers.
+- **Localization**: Tailors predictions for specific locations based on unique data.
+
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Preprocess the data: Use the `data_preprocessing.py` script or the `01_data_preprocessing.ipynb` notebook.
+3. Train the model: Use the `clustering_model.py` script or the `02_clustering_analysis.ipynb` notebook.
+4. Evaluate the model: Evaluate using the `evaluation.py` script.
